@@ -124,6 +124,10 @@ class _EdgeDetectionShapeState extends State<EdgeDetectionShape> {
           left + bottomLeft.dx * renderedImageWidth,
           top + bottomLeft.dy * renderedImageHeight
       ),
+      Offset(
+          left + topLeft.dx * renderedImageWidth,
+          top + topRight.dy * renderedImageHeight
+      ),
 
     ];
 
